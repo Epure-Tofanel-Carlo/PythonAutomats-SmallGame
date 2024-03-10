@@ -1,0 +1,71 @@
+# * este epsilon
+[Alfabet]
+*,
+Go Entrance Hall,
+Go Dining Room,
+Go Kitchen,
+Go Pantry,
+Go Treasury,
+Go Library,
+Go Wizard's Study,
+Go Throne Room,
+Go Armoury,
+Go Secret Exit,
+look,
+inventory,
+take key,
+take invitation,
+take chef's hat,
+take spoon,
+take sword,
+take crown,
+take ancient coin,
+take spell book,
+take magic wand,
+drop key,
+drop invitation,
+drop chef's hat,
+drop spoon,
+drop word,
+drop crown,
+drop ancient coin,
+drop spell book,
+drop magic wand
+
+#
+[ListAlphabet]
+key,
+invitation,
+chef's hat,
+spoon,sword,
+crown,
+ancient coin,
+spell book,
+magic wand
+
+[ListaInitiala]
+your clothes
+
+
+[Stari]
+Entrance Hall,S,F
+Dining Room,F
+Kitchen,F
+Pantry,F
+Treasury,F
+Library,F
+Wizard's Study,
+Throne Room,F
+Armoury,F
+Secret Exit,F
+
+
+# formatul este q1,a1,s1,q2,a2,a3
+# (as per this example means that if our LA is in state q1 and reads a1 from the input string and attached list contains
+# s1 then it will move to state q2, removes a2 from the list (if exists) and adds a3 to the list.)
+[Functia]
+q1,*,*,$,q2
+q2,0,*,0,q2
+q2,1,0,*,q3
+q3,1,0,*,q3
+q3,*,$,*,q4

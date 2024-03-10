@@ -1,0 +1,15 @@
+[Alfabet]
+0
+1
+*
+
+[Stari]
+q0,S
+q1
+q2,F
+
+[Functia]
+q0,0,q0
+q0,1,q0
+q0,*,q1
+q1,1,q2

@@ -4,8 +4,11 @@ Acest depozit GitHub conține implementări în Python ale unor automate finite 
 # Conținutul Depozitului
 
   DFA.py: Implementarea unui Automat Fini Determinist.
+  
   NFA.py: Implementarea unui Automat Fini Nedeterminist.
+  
   PDA.py: Implementarea unui Automat Pushdown.
+  
   GameWithLA: Jocul text-based despre explorarea unui castel, care utilizează mplementarea unui automat pushdown ipotetic care utilizează o Listă in loc de Stack
 
 

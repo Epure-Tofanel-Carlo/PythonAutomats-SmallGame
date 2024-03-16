@@ -1,7 +1,7 @@
 #Automate finite și automate pushdown în Python
 
 Acest depozit GitHub conține implementări în Python ale unor automate finite deterministe (DFA), automate finite nedeterministe (NFA), automate pushdown (PDA) și un automat pushdown ipotetic care utilizează o listă în locul unei stive. Acestea sunt folosite într-un joc text-based despre explorarea unui castel.
-# Conținutul Depozitului
+# Conținutul Repo-ului
 
   DFA.py: Implementarea unui Automat Fini Determinist.
   
